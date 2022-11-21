@@ -10,10 +10,8 @@ import org.springframework.stereotype.Component;
 public class A {
     @Value("srinivas")
     public String name;
-
     @Value("1234")
     public int id;
-
     @Autowired
     C c;
 

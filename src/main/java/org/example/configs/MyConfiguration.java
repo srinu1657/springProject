@@ -17,12 +17,12 @@ public class MyConfiguration {
         System.out.println("MyConfiguration static block");
     }
 
-   @Bean
-   public C getC(){
-     System.out.println("C bean creation");
-       C c=new C();
-        return c;
-    }
+   //@Bean
+  // public C getC(){
+    // System.out.println("C bean creation");
+      // C c=new C();
+        //return c;
+    //}
 
   //  @Bean("b")
     public B getB(){
